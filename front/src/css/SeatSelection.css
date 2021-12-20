@@ -1,0 +1,42 @@
+.seat input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+}
+
+.seat input[type=checkbox]:checked + label {
+    background: #0b885e;
+}
+
+.seat input[type=checkbox]:disabled + label {
+    background: #ff0000;
+}
+
+.SeatSelectTable  img{
+    width: 50px;
+    height: 60px;
+    }
+
+.SeatSelectTable{
+     margin: 10px;
+      padding: 10px 10px;
+      -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    background: rgb(255, 255, 255,0.6);
+    border-radius: 25px;
+    
+    }
+
+  .seatlist {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .seatlist li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  }
